@@ -12,7 +12,7 @@ pip install pydutchholidays
 
 ## Usage
 
-Here is an example of how to use the library to calculate Dutch holidays:
+Here is an example of how to use the library to retrieve Dutch holidays:
 
 ```python
 from dutch_holidays import get_dutch_holidays
@@ -23,13 +23,6 @@ all_holidays = get_dutch_holidays()
 # Print all holidays
 for holiday_name, holiday_dates in all_holidays.items():
     print(f"{holiday_name}: {holiday_dates}")
-```
-
-## Features
-
-- Calculate Dutch holidays for a specified year and province.
-- Support for all provinces in the Netherlands.
-- Easy to use and integrate into your projects.
 
 ## Contributing
 
