@@ -1,10 +1,27 @@
 [project]
-name = "dutch-holidays"
+name = "pydutchholidays"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Python library to retrieve Dutch holidays"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.8"
+authors = [
+    {name = "Pier-Angelo Gaetani", email = "pier.gaetani@gmail.com"},
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
 dependencies = [
     "beautifulsoup4>=4.14.3",
     "requests>=2.33.1",
 ]
+
+[project.urls]
+Homepage = "https://github.com/pgaetani/pydutchholidays"
+Repository = "https://github.com/pgaetani/pydutchholidays"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
