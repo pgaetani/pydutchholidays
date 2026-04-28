@@ -23,6 +23,7 @@ all_holidays = get_dutch_holidays()
 # Print all holidays
 for holiday_name, holiday_dates in all_holidays.items():
     print(f"{holiday_name}: {holiday_dates}")
+```
 
 ## Contributing
 
